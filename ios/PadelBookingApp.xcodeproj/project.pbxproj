@@ -7,54 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D6A2C62C6F4E3B00123ABC /* PadelBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A2C52C6F4E3B00123ABC /* PadelBookingApp.swift */; };
-		00D6A2C82C6F4E3B00123ABC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A2C72C6F4E3B00123ABC /* ContentView.swift */; };
-		00D6A2CA2C6F4E3B00123ABC /* CourtsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A2C92C6F4E3B00123ABC /* CourtsView.swift */; };
-		00D6A2CC2C6F4E3B00123ABC /* SlotPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A2CB2C6F4E3B00123ABC /* SlotPickerView.swift */; };
-		00D6A2CE2C6F4E3B00123ABC /* BookingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A2CD2C6F4E3B00123ABC /* BookingFormView.swift */; };
-		00D6A2D02C6F4E3B00123ABC /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A2CF2C6F4E3B00123ABC /* MyBookingsView.swift */; };
-		00D6A2D22C6F4E3B00123ABC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A2D12C6F4E3B00123ABC /* Models.swift */; };
+		00BB20C12B4A4E3B00123456 /* PadelBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB20C02B4A4E3B00123456 /* PadelBookingApp.swift */; };
+		00BB20C32B4A4E3B00123456 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB20C22B4A4E3B00123456 /* ContentView.swift */; };
+		00BB20C52B4A4E3B00123456 /* CourtsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB20C42B4A4E3B00123456 /* CourtsView.swift */; };
+		00BB20C72B4A4E3B00123456 /* SlotPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB20C62B4A4E3B00123456 /* SlotPickerView.swift */; };
+		00BB20C92B4A4E3B00123456 /* BookingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB20C82B4A4E3B00123456 /* BookingFormView.swift */; };
+		00BB20CB2B4A4E3B00123456 /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB20CA2B4A4E3B00123456 /* MyBookingsView.swift */; };
+		00BB20CD2B4A4E3B00123456 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB20CC2B4A4E3B00123456 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00D6A2C32C6F4E3B00123ABC /* PadelBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadelBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00D6A2C52C6F4E3B00123ABC /* PadelBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadelBookingApp.swift; sourceTree = "<group>"; };
-		00D6A2C72C6F4E3B00123ABC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00D6A2C92C6F4E3B00123ABC /* CourtsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtsView.swift; sourceTree = "<group>"; };
-		00D6A2CB2C6F4E3B00123ABC /* SlotPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotPickerView.swift; sourceTree = "<group>"; };
-		00D6A2CD2C6F4E3B00123ABC /* BookingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFormView.swift; sourceTree = "<group>"; };
-		00D6A2CF2C6F4E3B00123ABC /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
-		00D6A2D12C6F4E3B00123ABC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		00D6A2D32C6F4E3B00123ABC /* PadelBookingApp.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = PadelBookingApp.app; path = PadelBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BB20BE2B4A4E3B00123456 /* PadelBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadelBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BB20C02B4A4E3B00123456 /* PadelBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadelBookingApp.swift; sourceTree = "<group>"; };
+		00BB20C22B4A4E3B00123456 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00BB20C42B4A4E3B00123456 /* CourtsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtsView.swift; sourceTree = "<group>"; };
+		00BB20C62B4A4E3B00123456 /* SlotPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotPickerView.swift; sourceTree = "<group>"; };
+		00BB20C82B4A4E3B00123456 /* BookingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFormView.swift; sourceTree = "<group>"; };
+		00BB20CA2B4A4E3B00123456 /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
+		00BB20CC2B4A4E3B00123456 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		00BB20CE2B4A4E3B00123456 /* PadelBookingApp.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = PadelBookingApp.app; path = PadelBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		00D6A2C02C6F4E3B00123ABC = {
+		00BB20BF2B4A4E3B00123456 = {
 			isa = PBXGroup;
 			children = (
-				00D6A2C42C6F4E3B00123ABC,
-				00D6A2D42C6F4E3B00123ABC,
+				00BB20C02B4A4E3B00123456,
+				00BB20C22B4A4E3B00123456,
+				00BB20C42B4A4E3B00123456,
+				00BB20C62B4A4E3B00123456,
+				00BB20C82B4A4E3B00123456,
+				00BB20CA2B4A4E3B00123456,
+				00BB20CC2B4A4E3B00123456,
+				00BB20CF2B4A4E3B00123456,
 			);
+			path = "";
 			sourceTree = "<group>";
 		};
-		00D6A2C42C6F4E3B00123ABC = {
+		00BB20CF2B4A4E3B00123456 = {
 			isa = PBXGroup;
 			children = (
-				00D6A2C52C6F4E3B00123ABC,
-				00D6A2C72C6F4E3B00123ABC,
-				00D6A2C92C6F4E3B00123ABC,
-				00D6A2CB2C6F4E3B00123ABC,
-				00D6A2CD2C6F4E3B00123ABC,
-				00D6A2CF2C6F4E3B00123ABC,
-				00D6A2D12C6F4E3B00123ABC,
-			);
-			name = "";
-			sourceTree = "<group>";
-		};
-		00D6A2D42C6F4E3B00123ABC = {
-			isa = PBXGroup;
-			children = (
-				00D6A2D32C6F4E3B00123ABC,
+				00BB20CE2B4A4E3B00123456,
 			);
 			name = "Products";
 			sourceTree = "<group>";
@@ -62,11 +55,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00D6A2BF2C6F4E3B00123ABC = {
+		00BB20BD2B4A4E3B00123456 = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00D6A2D62C6F4E3B00123ABC;
+			buildConfigurationList = 00BB20D12B4A4E3B00123456;
 			buildPhases = (
-				00D6A2C12C6F4E3B00123ABC,
+				00BB20BA2B4A4E3B00123456,
 			);
 			buildRules = (
 			);
@@ -74,61 +67,61 @@
 			);
 			name = PadelBookingApp;
 			productName = PadelBookingApp;
-			productReference = 00D6A2D32C6F4E3B00123ABC;
+			productReference = 00BB20CE2B4A4E3B00123456;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00D6A2C12C6F4E3B00123ABC = {
+		00BB20BA2B4A4E3B00123456 = {
 			isa = PBXProject;
-			buildConfigurationList = 00D6A2D72C6F4E3B00123ABC;
+			buildConfigurationList = 00BB20D22B4A4E3B00123456;
 			compatibilityVersion = "Xcode 14.0";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 00D6A2C02C6F4E3B00123ABC;
-			productRefGroup = 00D6A2D42C6F4E3B00123ABC;
+			mainGroup = 00BB20BF2B4A4E3B00123456;
+			productRefGroup = 00BB20CF2B4A4E3B00123456;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00D6A2BF2C6F4E3B00123ABC,
+				00BB20BD2B4A4E3B00123456,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00D6A2C12C6F4E3B00123ABC = {
+		00BB20BA2B4A4E3B00123456 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D6A2C62C6F4E3B00123ABC,
-				00D6A2C82C6F4E3B00123ABC,
-				00D6A2CA2C6F4E3B00123ABC,
-				00D6A2CC2C6F4E3B00123ABC,
-				00D6A2CE2C6F4E3B00123ABC,
-				00D6A2D02C6F4E3B00123ABC,
-				00D6A2D22C6F4E3B00123ABC,
+				00BB20C12B4A4E3B00123456 /* PadelBookingApp.swift in Sources */,
+				00BB20C32B4A4E3B00123456 /* ContentView.swift in Sources */,
+				00BB20C52B4A4E3B00123456 /* CourtsView.swift in Sources */,
+				00BB20C72B4A4E3B00123456 /* SlotPickerView.swift in Sources */,
+				00BB20C92B4A4E3B00123456 /* BookingFormView.swift in Sources */,
+				00BB20CB2B4A4E3B00123456 /* MyBookingsView.swift in Sources */,
+				00BB20CD2B4A4E3B00123456 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCConfigurationList section */
-		00D6A2D62C6F4E3B00123ABC = {
+		00BB20D12B4A4E3B00123456 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00D6A2D82C6F4E3B00123ABC,
+				00BB20D32B4A4E3B00123456,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00D6A2D72C6F4E3B00123ABC = {
+		00BB20D22B4A4E3B00123456 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00D6A2DA2C6F4E3B00123ABC,
+				00BB20D42B4A4E3B00123456,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -136,35 +129,29 @@
 /* End XCConfigurationList section */
 
 /* Begin XCBuildConfiguration section */
-		00D6A2D82C6F4E3B00123ABC = {
+		00BB20D32B4A4E3B00123456 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_PREVIEWS = YES;
 				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Release;
 		};
-		00D6A2DA2C6F4E3B00123ABC = {
+		00BB20D42B4A4E3B00123456 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_PREVIEWS = YES;
 				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 	};
-	rootObject = 00D6A2C12C6F4E3B00123ABC;
+	rootObject = 00BB20BA2B4A4E3B00123456;
 }

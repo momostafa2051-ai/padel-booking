@@ -14,7 +14,7 @@
             buildForDynamicTesting = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "200"
+               BlueprintIdentifier = "PadelBookingApp"
                BuildableName = "PadelBookingApp.app"
                BlueprintName = "PadelBookingApp"
                ReferencedContainer = "container:PadelBookingApp.xcodeproj">
@@ -47,7 +47,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "200"
+            BlueprintIdentifier = "PadelBookingApp"
             BuildableName = "PadelBookingApp.app"
             BlueprintName = "PadelBookingApp"
             ReferencedContainer = "container:PadelBookingApp.xcodeproj">
@@ -69,7 +69,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "200"
+            BlueprintIdentifier = "PadelBookingApp"
             BuildableName = "PadelBookingApp.app"
             BlueprintName = "PadelBookingApp"
             ReferencedContainer = "container:PadelBookingApp.xcodeproj">
