@@ -29,7 +29,7 @@ jobs:
         xcodebuild -exportArchive -archivePath build/PadelBookingApp.xcarchive -exportPath output -exportOptionsPlist ExportOptions.plist CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         
     - name: Upload IPA
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: PadelBookingApp.ipa
         path: ios/output/PadelBookingApp.ipa
