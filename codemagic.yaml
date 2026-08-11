@@ -3,8 +3,9 @@ workflows:
     name: iOS Build
     max_build_duration: 120
     instance_type: mac_mini_m2
-    inputs:
-      xcode: latest
+    environment:
+      vars:
+        XCODE_VERSION: "latest"
     scripts:
       - name: Set up code signing
         script: |
