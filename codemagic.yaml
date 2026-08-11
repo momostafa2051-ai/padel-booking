@@ -1,16 +1,17 @@
 workflows:
-  ios-workflow:
+  ios-build:
     name: iOS Build
     max_build_duration: 120
     instance_type: mac_mini_m2
-    environment:
-      ios-signing:
-        enabled: false
+    inputs:
       xcode: latest
     scripts:
-      - name: Build iOS App
+      - name: Set up code signing
         script: |
-          cd ios
+          keychain initialize
+      - name: Build iOS project
+        script: |
+          cd $CM_BUILD_DIR/ios
           xcodebuild -project PadelBookingApp.xcodeproj -scheme PadelBookingApp -configuration Release -destination 'generic/platform=iOS Simulator' build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     artifacts:
-      - build/**/*.app
+      - build/Release-iphonesimulator/*.app
